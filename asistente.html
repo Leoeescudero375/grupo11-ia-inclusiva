@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Asistente Virtual · IA y Robótica Educativa Inclusiva</title>
+  <meta name="description" content="Pixel, el asistente conversacional del proyecto, creado en Landbot. Responde preguntas sobre IA, robótica educativa e inclusión.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700&family=Lexend:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a href="index.html" class="brand">
+        <span class="brand-badge" aria-hidden="true">🤖</span>
+        <span>IA y Robótica Educativa Inclusiva
+          <small>Grupo 11 · UTN · Tecnología Educativa</small>
+        </span>
+      </a>
+      <button class="nav-toggle" aria-label="Abrir menú de navegación" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a href="index.html">Inicio</a>
+        <a href="proyecto.html">El Proyecto</a>
+        <a href="recursos.html">Recursos</a>
+        <a href="asistente.html" class="active" aria-current="page">Asistente Virtual</a>
+        <a href="etica.html">Aspectos Éticos</a>
+        <a href="creditos.html">Créditos</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <div class="container">
+        <span class="eyebrow">Asistente Virtual</span>
+        <h1>Pixel — El asistente del sitio</h1>
+        <p class="lead">
+          Pixel es el asistente conversacional de este proyecto. Fue creado desde cero en
+          <strong>Landbot</strong>, siguiendo los principios de diseño de chatbots educativos
+          desarrollados durante la cursada: objetivos claros, flujo conversacional definido,
+          tono cálido y pausado, sin recolección de datos personales.
+        </p>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container grid grid-2" style="gap:40px;align-items:start;">
+        <div>
+          <h2>¿Qué puede hacer Pixel?</h2>
+          <p>
+            Pixel responde preguntas frecuentes sobre el proyecto a través de un menú
+            de opciones claras. El visitante elige qué quiere saber y recibe una respuesta
+            breve, amigable y directa.
+          </p>
+
+          <div class="sendero" style="margin-top:28px;">
+            <div class="sendero-item">
+              <div class="num" style="font-size:1rem;">💬</div>
+              <div class="sendero-card">
+                <h3>¿Qué es este proyecto?</h3>
+                <p>Pixel explica en pocas palabras el eje temático, el grupo y los objetivos del sitio.</p>
+              </div>
+            </div>
+            <div class="sendero-item">
+              <div class="num" style="font-size:1rem;">📦</div>
+              <div class="sendero-card">
+                <h3>¿Qué recursos hay?</h3>
+                <p>Informa sobre los cuatro recursos del sitio: texto, animación, podcast y video.</p>
+              </div>
+            </div>
+            <div class="sendero-item">
+              <div class="num" style="font-size:1rem;">🧩</div>
+              <div class="sendero-card">
+                <h3>¿Qué es el TEA?</h3>
+                <p>Describe brevemente el Trastorno del Espectro Autista y por qué el proyecto
+                usa rutinas, apoyos visuales y lenguaje simple.</p>
+              </div>
+            </div>
+            <div class="sendero-item">
+              <div class="num" style="font-size:1rem;">🤖</div>
+              <div class="sendero-card">
+                <h3>¿Qué herramientas de IA se usaron?</h3>
+                <p>Detalla las herramientas empleadas en cada recurso: ChatGPT, Gemini, ElevenLabs, Canva, NotebookLM y Landbot.</p>
+              </div>
+            </div>
+            <div class="sendero-item">
+              <div class="num" style="font-size:1rem;">✅</div>
+              <div class="sendero-card">
+                <h3>Uso ético de la IA</h3>
+                <p>Comparte los principios éticos del proyecto: transparencia, revisión humana, privacidad y ausencia de sesgos.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="card" style="background:var(--sun-tint);border-color:#f2c98a;">
+            <h2>Cómo crear Pixel en Landbot</h2>
+            <p>El chatbot fue diseñado desde cero en <a href="https://landbot.io" target="_blank" rel="noopener">landbot.io</a>. A continuación el flujo para reproducirlo:</p>
+            <ol style="padding-left:1.3em;margin:16px 0;line-height:2;">
+              <li>Crear cuenta gratuita en Landbot → <em>Web Chatbot</em>.</li>
+              <li>Bloque de <strong>bienvenida</strong>: mensaje inicial de Pixel.</li>
+              <li>Bloque de <strong>botones</strong>: las 5 opciones del menú.</li>
+              <li>5 bloques de <strong>respuesta</strong>, uno por opción.</li>
+              <li>Cada respuesta conecta de vuelta al <strong>menú principal</strong>.</li>
+              <li>Personalizar colores (azul <code>#4A7FA5</code>) y avatar.</li>
+              <li>Publicar y copiar el snippet <code>&lt;script&gt;</code> de embed.</li>
+              <li>Pegar el snippet antes de <code>&lt;/body&gt;</code> en cada página del sitio.</li>
+            </ol>
+            <p class="small"><strong>Nota:</strong> Pixel no recopila datos personales y no reemplaza la mediación docente. Complementa el recorrido del visitante por el sitio.</p>
+          </div>
+
+          <div class="card" style="margin-top:20px;">
+            <h2>Mensaje de bienvenida de Pixel</h2>
+            <div class="prompt-box">¡Hola! 👋 Soy Pixel, el asistente de este sitio.
+
+Estoy acá para ayudarte a conocer el proyecto sobre IA, robótica educativa e inclusión.
+
+¿Sobre qué te gustaría saber?
+
+[1] ¿Qué es este proyecto?
+[2] ¿Qué recursos hay en el sitio?
+[3] ¿Qué es el TEA?
+[4] ¿Qué herramientas de IA se usaron?
+[5] Uso ético de la IA</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head center">
+          <span class="eyebrow">Integración en el sitio</span>
+          <h2>Pixel aparece en todas las páginas</h2>
+          <p>
+            Una vez generado el código embed de Landbot, se inserta en cada archivo HTML antes
+            del cierre de <code>&lt;/body&gt;</code>. El botón flotante naranja visible en la
+            esquina inferior derecha de este sitio enlaza a esta página como referencia hasta
+            que el chatbot esté publicado. Cuando Pixel esté listo en Landbot, reemplazá ese
+            enlace por el snippet de embed y el chatbot aparecerá como burbuja flotante en todo
+            el sitio.
+          </p>
+        </div>
+        <div class="card-flat" style="max-width:680px;margin:0 auto;">
+          <h3>Fragmento de código de integración</h3>
+          <div class="prompt-box">&lt;!-- LANDBOT EMBED — reemplazar con tu snippet de Landbot --&gt;
+&lt;script src="https://cdn.landbot.io/landbot-3/landbot-3.0.0.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+  var myLandbot = new Landbot.Popup({
+    configUrl: 'https://storage.googleapis.com/landbot.online/v3/TU-BOT-ID/index.json',
+  });
+&lt;/script&gt;</div>
+          <p class="small">El valor <code>TU-BOT-ID</code> se obtiene desde el panel de Landbot al publicar el bot → <em>Share → Embed</em>.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONSIDERACIONES ÉTICAS DEL CHATBOT -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Ética del chatbot</span>
+          <h2>Diseño responsable de Pixel</h2>
+        </div>
+        <div class="grid grid-3">
+          <div class="ethic-card">
+            <span class="emoji">🔒</span>
+            <h3>Sin datos personales</h3>
+            <p>Pixel no solicita nombre, correo ni ningún dato personal. La interacción es anónima y segura.</p>
+          </div>
+          <div class="ethic-card">
+            <span class="emoji">👩‍🏫</span>
+            <h3>No reemplaza al docente</h3>
+            <p>Pixel informa sobre el proyecto. Toda mediación pedagógica real corresponde a docentes y familias.</p>
+          </div>
+          <div class="ethic-card">
+            <span class="emoji">✏️</span>
+            <h3>Respuestas revisadas</h3>
+            <p>El contenido de cada respuesta fue redactado y revisado por el equipo para evitar sesgos o información incorrecta.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-col">
+        <h4>IA y Robótica Educativa Inclusiva</h4>
+        <p>Proyecto desarrollado para la materia Gestión de Recursos Digitales con IA Generativa, Licenciatura en Tecnología Educativa (UTN), 1er. cuatrimestre de 2026.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Recorrer el sitio</h4>
+        <ul>
+          <li><a href="proyecto.html">El Proyecto</a></li>
+          <li><a href="recursos.html">Recursos</a></li>
+          <li><a href="asistente.html">Asistente Virtual</a></li>
+          <li><a href="etica.html">Aspectos Éticos</a></li>
+          <li><a href="creditos.html">Créditos y Referencias</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Grupo 11</h4>
+        <ul>
+          <li>Ximena D'Onofrio</li>
+          <li>Leonel Escudero</li>
+          <li>Victoria Gómez</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      © 2026 Grupo 11 — Contenidos producidos con apoyo de herramientas de IA generativa. Ver <a href="creditos.html">créditos y referencias</a>.
+    </div>
+  </footer>
+
+  <a href="asistente.html" class="pixel-fab" aria-label="Abrir el asistente virtual Pixel">
+    <span class="dot" aria-hidden="true"></span> Pixel · Asistente
+  </a>
+
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>
